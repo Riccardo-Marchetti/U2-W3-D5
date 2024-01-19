@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(253, 232, 204);
+}
+header {
+  background-color: rgb(61, 38, 2) !important;
+}
+.card {
+  box-shadow: 7px 7px 20px 4px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  color: rgb(61, 38, 2);
+}
+#scopri {
+  background-color: rgb(104, 64, 3);
+  border: none;
+}
+#modifica {
+  background-color: rgb(202, 155, 84);
+  color: white;
+  border: none;
+}
