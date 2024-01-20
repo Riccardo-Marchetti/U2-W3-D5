@@ -10,10 +10,11 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./form.css" />
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <img src="./OIG.jpg" class="img-fluid rounded-circle" style:
           width="80px" />
@@ -32,14 +33,15 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a
-                  class="nav-link active ps-4"
+                  id="li2"
+                  class="nav-link active ps-4 text-white"
                   aria-current="page"
                   href="./homepage.html"
                   >Homepage</a
                 >
               </li>
               <li class="nav-item ps-4">
-                <a class="nav-link active" href="./backoffice.html"
+                <a class="nav-link active text-white" href="./backoffice.html"
                   >Backoffice</a
                 >
               </li>
@@ -52,11 +54,11 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col col-12 text-center">
-            <h1>Da Riccardo - Gastronomia</h1>
+            <h1 class="mt-4">Da Riccardo - Gastronomia</h1>
           </div>
         </div>
         <div class="row mt-3 justify-content-center">
-          <div class="col col-12 col-md-8 border p-3">
+          <div id="cont" class="col col-12 col-md-8 border p-3">
             <h2 id="form-title">Form di creazione prodotti</h2>
             <form id="product-form">
               <div class="mb-3">

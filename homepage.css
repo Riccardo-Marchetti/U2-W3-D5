@@ -4,9 +4,26 @@ body {
 header {
   background-color: rgb(61, 38, 2) !important;
 }
+header li {
+  padding-left: 20px;
+}
 .card {
   box-shadow: 7px 7px 20px 4px rgba(0, 0, 0, 0.1);
   margin-right: 20px;
+  border: 1px solid rgba(61, 38, 2, 0.274);
+}
+.card h5 {
+  font-size: 30px;
+  color: rgb(61, 38, 2);
+}
+.card p:nth-of-type(2) {
+  font-size: 18px;
+  color: rgb(61, 38, 2);
+  font-weight: 500;
+}
+.card p {
+  font-size: 19px;
+  color: rgb(61, 38, 2);
 }
 h1 {
   color: rgb(61, 38, 2);

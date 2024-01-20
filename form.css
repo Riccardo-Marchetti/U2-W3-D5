@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(253, 232, 204);
+}
+header {
+  background-color: rgb(61, 38, 2) !important;
+}
+header li {
+  padding-left: 20px;
+}
+#li2 {
+  padding-right: 4px;
+}
+
+.form-control {
+  background-color: rgb(255, 253, 252);
+  border: 1px solid rgb(61, 38, 2);
+}
+#form-title {
+  color: rgb(61, 38, 2);
+}
+form {
+  color: rgb(61, 38, 2);
+  font-size: 18px;
+  font-weight: 500;
+}
+#cont {
+  border: 1px solid rgb(61, 38, 2) !important;
+}
+h1 {
+  color: rgb(61, 38, 2);
+}
